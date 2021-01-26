@@ -13,7 +13,7 @@ class SeatingChart
     /**
      * @param SeatCategory[] $categories
      */
-    public function __construct(string $key, string $name, array $categories = [], string $thumbnail = null)
+    public function __construct(string $key, string $name, array $categories = [], ?string $thumbnail = null)
     {
         $this->key = $key;
         $this->name = $name;

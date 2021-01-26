@@ -26,8 +26,8 @@ class AddTicketTypeRequest
         bool $isActive,
         array $seatCategories,
         bool $differentSalesPeriod = false,
-        \DateTimeImmutable $salesStart = null,
-        \DateTimeImmutable $salesEnd = null
+        ?\DateTimeImmutable $salesStart = null,
+        ?\DateTimeImmutable $salesEnd = null
     ) {
         if ($differentSalesPeriod) {
             if (null === $salesStart || null === $salesEnd) {

@@ -33,7 +33,7 @@ class Api
      */
     public function listEvents(int $page = 1) : ListEventsResponse
     {
-        $response = $this->client->get($this->connection, "/event/list/upcoming/${page}");
+        $response = $this->client->get($this->connection, "/event/list/upcoming/{$page}");
 
         $this->throwExceptionOnFailedRequest($response);
 
@@ -49,7 +49,7 @@ class Api
      * @throws AuthorizationFailedException
      * @throws ValidationException
      */
-    private function throwExceptionOnFailedRequest(ClientResponse $response, string $resourceNotFoundExceptionFqn = null) : void
+    private function throwExceptionOnFailedRequest(ClientResponse $response, ?string $resourceNotFoundExceptionFqn = null) : void
     {
         if (!$response->isSuccessful()) {
             if ($response->isAuthorizationFailed()) {
@@ -172,7 +172,7 @@ class Api
      */
     public function getEvent(string $uuid) : Event
     {
-        $response = $this->client->get($this->connection, "/event/${uuid}/detail");
+        $response = $this->client->get($this->connection, "/event/{$uuid}/detail");
 
         $this->throwExceptionOnFailedRequest($response, EventNotFoundException::class);
 

@@ -36,7 +36,7 @@ class ClientResponse
     public function validationErrors() : array
     {
         if (\array_key_exists('errors', $this->content) && !empty($this->content['errors'])) {
-            $this->content['errors'];
+            return $this->content['errors'];
         }
 
         return [];

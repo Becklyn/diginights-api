@@ -27,7 +27,7 @@ class TicketSale
         string $url,
         // these come only with ticket sale details
         array $ticketTypes = [],
-        string $seatingChartKey = null
+        ?string $seatingChartKey = null
     ) {
         $this->uuid = $uuid;
         $this->isActive = $isActive;

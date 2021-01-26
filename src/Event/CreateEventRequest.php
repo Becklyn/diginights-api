@@ -23,7 +23,7 @@ class CreateEventRequest
         AgeRestriction $ageFrom,
         int $locationId,
         CreateTicketSaleRequest $ticketSale,
-        string $seatingChartKey = null
+        ?string $seatingChartKey = null
     ) {
         $this->name = $name;
         $this->category = $category;

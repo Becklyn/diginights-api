@@ -27,8 +27,8 @@ class Event
         string $slug,
         string $url,
         // the following are only available via details
-        Location $location = null,
-        TicketSale $ticketSale = null
+        ?Location $location = null,
+        ?TicketSale $ticketSale = null
     ) {
         $this->uuid = $uuid;
         $this->name = $name;
