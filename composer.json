@@ -16,7 +16,6 @@
         "201created/support": "^0.1.3"
     },
     "require-dev": {
-        "becklyn/php-cs": ">=10"
     },
     "config": {
         "sort-packages": true

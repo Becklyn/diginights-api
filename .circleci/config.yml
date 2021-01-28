@@ -38,14 +38,14 @@ jobs:
                 command: composer normalize --indent-size 4 --indent-style space --dry-run
             - run:
                 name: PHP CS Fixer
-                command: php vendor/bin/php-cs-fixer fix --diff --config vendor/becklyn/php-cs/.php_cs.dist --dry-run --no-interaction
+                command: php vendor/bin/php-cs-fixer fix --diff --config vendor-bin/test/vendor/becklyn/php-cs/.php_cs.dist --dry-run --no-interaction
             - run:
                 name: PHPUnit
-                command: ./vendor/bin/simple-phpunit -c phpunit.xml --colors=always --testdox
+                command: ./vendor/bin/phpunit -c phpunit.xml --colors=always --testdox
             # phpstan (needs to run after simple-phpunit, as it needs the installed phpunit)
             - run:
                 name: PhpStan
-                command: php vendor/bin/phpstan analyse --memory-limit 4G --ansi -c vendor/becklyn/php-cs/phpstan/lib.neon . --no-interaction --no-progress
+                command: php vendor/bin/phpstan analyse --memory-limit 4G --ansi -c vendor-bin/test/vendor/becklyn/php-cs/phpstan/lib.neon . --no-interaction --no-progress
 
 workflows:
     version: 2
