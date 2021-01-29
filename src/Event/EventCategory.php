@@ -10,7 +10,7 @@ class EventCategory extends Enum
     public const FESTIVAL = 'Festival';
     public const BUSTRIP = 'Bustrip';
     public const KONZERT = 'Konzert';
-    public const MESSE = 'MEsse';
+    public const MESSE = 'Messe';
     public const FILM = 'Film';
     public const SPORT = 'Sport';
     public const FITNESS = 'Fitness';
