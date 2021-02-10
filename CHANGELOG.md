@@ -1,3 +1,9 @@
+1.0.4
+=====
+
+### Added
+- Missing `is_active` field in `\Becklyn\DiginightsApi\Api::addTicketType`
+
 1.0.3
 =====
 

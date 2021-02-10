@@ -276,6 +276,7 @@ class Api
             'ticket_type[different_sales_period]' => (int) $request->differentSalesPeriod(),
             'ticket_type[price]' => $request->price(),
             'ticket_type[seat_categories][seat_categories]' => $request->seatCategories(),
+            'ticket_type[is_active]' => (int) $request->isActive(),
         ];
 
         if ($request->differentSalesPeriod()) {
