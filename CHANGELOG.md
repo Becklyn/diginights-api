@@ -1,3 +1,9 @@
+1.0.3
+=====
+
+### Fixed
+- Deserialization of ticket type price received from Diginights
+
 1.0.2
 =====
 

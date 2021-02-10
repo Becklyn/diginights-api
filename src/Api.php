@@ -162,7 +162,7 @@ class Api
 
     private function deserializeTicketType(array $ticketTypeData) : TicketType
     {
-        return new TicketType($ticketTypeData['name'], $ticketTypeData['is_active'], $ticketTypeData['price']);
+        return new TicketType($ticketTypeData['name'], $ticketTypeData['is_active'], (string) $ticketTypeData['price']);
     }
 
     /**
