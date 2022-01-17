@@ -2,6 +2,7 @@
 =====
 
 *   (feature) Event Seating Charts are now Optional.
+*   (internal) Bump dependencies.
 
 
 1.0.4
