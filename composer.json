@@ -11,7 +11,7 @@
     ],
     "homepage": "https://github.com/Becklyn/",
     "require": {
-        "php": "^7.4",
+        "php": ">=7.4",
         "ext-curl": "*",
         "201created/support": "^0.1.3"
     },

@@ -3,6 +3,7 @@
 
 *   (feature) Event Seating Charts are now Optional.
 *   (internal) Bump dependencies.
+*   (improvement) Allow PHP 8.0.
 
 
 1.0.4
