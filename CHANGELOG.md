@@ -1,3 +1,7 @@
+1.0.5
+=====
+- Event Seating Charts are now Optional
+
 1.0.4
 =====
 
