@@ -1,6 +1,6 @@
 {
     "require": {
-        "becklyn/php-cs": ">=10",
+        "becklyn/php-cs": ">=17",
         "phpunit/phpunit": "^9.5"
     }
 }

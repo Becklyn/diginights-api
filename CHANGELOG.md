@@ -1,26 +1,34 @@
+1.1.0
+=====
+
+*   (feature) Event Seating Charts are now Optional.
+*   (internal) Bump dependencies.
+*   (improvement) Allow PHP 8.0.
+
+
 1.0.4
 =====
 
-### Added
-- Missing `is_active` field in `\Becklyn\DiginightsApi\Api::addTicketType`
+*   (bug) Add missing `is_active` field in `\Becklyn\DiginightsApi\Api::addTicketType`.
+
 
 1.0.3
 =====
 
-### Fixed
-- Deserialization of ticket type price received from Diginights
+*   (bug) Deserialization of ticket type price received from Diginights.
+
 
 1.0.2
 =====
 
-### Added
-- Readme
+*   (improvement) Added `README.md`.
+
 
 1.0.1
 =====
 
-### Fixed
-- Incorrectly spelled value of `\Becklyn\DiginightsApi\Event\EventCategory`
+*   (bug) Incorrectly spelled value of `\Becklyn\DiginightsApi\Event\EventCategory`.
+
 
 1.0.0
 =====

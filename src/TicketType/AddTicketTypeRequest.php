@@ -11,7 +11,7 @@ class AddTicketTypeRequest
     private string $price;
     private bool $isActive;
     /** @var int[] */
-    private array $seatCategories;
+    private ?array $seatCategories;
     private bool $differentSalesPeriod;
     private ?\DateTimeImmutable $salesStart;
     private ?\DateTimeImmutable $salesEnd;
@@ -24,7 +24,7 @@ class AddTicketTypeRequest
         string $name,
         string $price,
         bool $isActive,
-        array $seatCategories,
+        ?array $seatCategories = null,
         bool $differentSalesPeriod = false,
         ?\DateTimeImmutable $salesStart = null,
         ?\DateTimeImmutable $salesEnd = null
@@ -68,7 +68,7 @@ class AddTicketTypeRequest
     /**
      * @return int[]
      */
-    public function seatCategories() : array
+    public function seatCategories() : ?array
     {
         return $this->seatCategories;
     }
