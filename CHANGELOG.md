@@ -3,6 +3,7 @@
 
 *   (feature) Replace `201created/support` with `becklyn/utilities` to get proper PHP 8.0+ support.
 *   (internal) Fix usage of deprecated PhpStan option `excludes_analyse`.
+*   (internal) Replace CircleCI with GitHub Actions.
 
 
 1.1.0
