@@ -12,7 +12,7 @@ class Location
     private array $seatingCharts;
 
     /**
-     * @param \Becklyn\DiginightsApi\SeatingChart\SeatingChart[] $seatingCharts
+     * @param SeatingChart[] $seatingCharts
      */
     public function __construct(string $uuid, string $name, array $seatingCharts = [])
     {
@@ -32,7 +32,7 @@ class Location
     }
 
     /**
-     * @return \Becklyn\DiginightsApi\SeatingChart\SeatingChart[]
+     * @return SeatingChart[]
      */
     public function seatingCharts() : array
     {
