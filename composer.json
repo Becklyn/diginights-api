@@ -11,7 +11,7 @@
     ],
     "homepage": "https://github.com/Becklyn/",
     "require": {
-        "php": ">=7.4",
+        "php": ">=8.0",
         "ext-curl": "*",
         "becklyn/utilities": "^2.0.2"
     },

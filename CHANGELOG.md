@@ -1,6 +1,7 @@
-1.2.0
+2.0.0
 =====
 
+*   (bc) Drop support for PHP 7.4.
 *   (feature) Replace `201created/support` with `becklyn/utilities` to get proper PHP 8.0+ support.
 *   (internal) Fix usage of deprecated PhpStan option `excludes_analyse`.
 *   (internal) Replace CircleCI with GitHub Actions.
