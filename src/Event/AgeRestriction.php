@@ -2,7 +2,7 @@
 
 namespace Becklyn\DiginightsApi\Event;
 
-use C201\Support\Enum\Enum;
+use Becklyn\Utilities\Enum\Enum;
 
 class AgeRestriction extends Enum
 {

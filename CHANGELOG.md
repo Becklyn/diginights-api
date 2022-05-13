@@ -1,3 +1,9 @@
+1.2.0
+=====
+
+*   (feature) Replace `201created/support` with `becklyn/utilities` to get proper PHP 8.0+ support.
+
+
 1.1.0
 =====
 
